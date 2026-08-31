@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Question 13: Webpage with text in three languages -->
+    <!-- UTF-8 ensures all characters (accented French letters, Hindi script) render correctly -->
+    <meta charset="UTF-8">
+    <title>Q13 - Multilingual Page</title>
+</head>
+<body>
+
+    <h1>Greetings in Three Languages</h1>
+
+    <p>English: Welcome to my website!</p>
+    <p>Hindi: मेरी वेबसाइट पर आपका स्वागत है!</p>
+    <p>French: Bienvenue sur mon site web!</p>
+
+</body>
+</html>
