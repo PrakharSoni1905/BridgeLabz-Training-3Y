@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Question 2: Embed a Google Map using an iframe -->
+    <meta charset="UTF-8">
+    <title>Q2 - Google Map Embed</title>
+</head>
+<body>
+
+    <h1>Map of My City - Mathura, Uttar Pradesh</h1>
+
+    <!-- The loading="lazy" attribute tells the browser to delay loading this
+         iframe's content until it is about to come into the visible viewport.
+         This improves initial page load speed, since the map (a heavy resource)
+         is not fetched until the user actually scrolls near it. -->
+    <iframe
+        title="Map showing Mathura, Uttar Pradesh"
+        width="600"
+        height="450"
+        loading="lazy"
+        src="https://www.google.com/maps?q=Mathura,Uttar+Pradesh,India&output=embed">
+    </iframe>
+
+</body>
+</html>
