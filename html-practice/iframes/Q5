@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Question 5: Complete head section -->
+
+    <!-- Declares UTF-8 character encoding so special characters from any language display correctly -->
+    <meta charset="UTF-8">
+
+    <!-- Identifies the author of the page -->
+    <meta name="author" content="PK">
+
+    <!-- Ensures the page scales correctly on mobile device screens -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Q5 - UTF-8 Encoding Test</title>
+</head>
+<body>
+
+    <h1>Testing UTF-8 Encoding</h1>
+
+    <!-- Paragraph containing English, Hindi, and Japanese text to verify UTF-8 works -->
+    <p>
+        English: Hello, welcome to my page.<br>
+        Hindi: नमस्ते, मेरे पेज पर आपका स्वागत है।<br>
+        Japanese: こんにちは、私のページへようこそ。
+    </p>
+
+</body>
+</html>
