@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Question 14: Embedding an external website with an iframe -->
+    <meta charset="UTF-8">
+    <title>Q14 - External Website Embed</title>
+</head>
+<body>
+
+    <h1>Embedding Wikipedia</h1>
+
+    <iframe
+        src="https://www.wikipedia.org"
+        title="Wikipedia"
+        width="700"
+        height="500">
+    </iframe>
+
+    <p>Some websites may not allow embedding for security reasons.</p>
+
+</body>
+</html>
