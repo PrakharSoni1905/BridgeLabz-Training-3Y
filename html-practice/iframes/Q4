@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html lang="en">
+<head>
+    <!-- Question 4: Frameset layout using frameset and frame tags -->
+    <!-- Note: frameset requires the HTML 4.01 Frameset doctype above and
+         is not part of the HTML5 standard, but is still supported by most browsers -->
+    <title>Q4 - Frameset Layout</title>
+</head>
+
+<!-- Splits the page into two horizontal rows: 20% top frame, 80% bottom frame -->
+<frameset rows="20%,80%">
+
+    <!-- Top frame: Navigation links -->
+    <frame src="q4_nav.html" name="topFrame">
+
+    <!-- Bottom frame: Welcome message -->
+    <frame src="q4_welcome.html" name="bottomFrame">
+
+    <noframes>
+        <body>
+            <p>Your browser does not support frames.</p>
+        </body>
+    </noframes>
+
+</frameset>
+</html>
