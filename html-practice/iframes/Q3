@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Supporting page for Question 3: content shown in the first iframe -->
+    <meta charset="UTF-8">
+    <title>Introduction</title>
+</head>
+<body>
+
+    <h2>About Me</h2>
+    <p>Hi, I'm PK, a computer science student. I enjoy learning about programming, algorithms, and building things with code.</p>
+
+</body>
+</html>
